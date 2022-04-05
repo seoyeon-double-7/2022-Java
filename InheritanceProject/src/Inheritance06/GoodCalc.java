@@ -1,7 +1,7 @@
 package Inheritance06;
 
-public class GoodCalc extends Calculator{
-	@Override
+public class GoodCalc extends Calculator{	//추상 클래스를 상속 받음
+	@Override	//어노테이션
 	public int add(int a, int b) {	//반드시 재정의(재정의 하지 않으면 오류 발생)
 		return a + b;
 	}
